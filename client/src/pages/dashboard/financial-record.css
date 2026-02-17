@@ -1,0 +1,101 @@
+/* DASHBOARD WRAPPER */
+.dashboard-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: clamp(20px, 5vw, 50px) auto;
+  padding: 0 clamp(12px, 3vw, 24px);
+}
+
+/* HEADINGS */
+h1 {
+  font-size: var(--fs-xl);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--fs-lg);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* CARD CONTAINERS */
+.form-container,
+.list-container {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: clamp(16px, 3vw, 28px);
+  margin-bottom: 32px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* LABELS */
+label {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* INPUTS */
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: var(--fs-sm);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* BUTTONS */
+.button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: clamp(8px, 1.2vw, 12px) clamp(14px, 2vw, 20px);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--primary-dark);
+}
+
+/* TABLE */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: clamp(10px, 1.5vw, 16px);
+  font-size: var(--fs-sm);
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.table th {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f7fd;
+}

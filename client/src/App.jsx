@@ -34,6 +34,7 @@ function App() {
                 </SignedOut>
               </>
             }
+
           />
 
           {/*  Auth Route */}

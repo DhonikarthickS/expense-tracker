@@ -13,6 +13,6 @@
         }
     ],
     "env": {
-        "MONGO_URI": "@mongodb_uri"
+        "MONGO_URI": "mongodb+srv://dhonikarthicksalem_db_user:d4UTy0WrnQBNCvqg@personalexpensetracker.rhkr5za.mongodb.net/"
     }
 }
